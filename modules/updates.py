@@ -5,7 +5,9 @@ import urllib
 import re
 from packaging import version
 from lxml import etree
-from modules.utils import config
+from modules. import utils
+
+config = utils.config
 
 chrome_version = config.get("chrome_version", "146.0.7670.2")
 update_url_base = "https://clients2.google.com/service/update2/crx"
