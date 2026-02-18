@@ -5,7 +5,7 @@ import urllib
 import re
 from packaging import version
 from lxml import etree
-from modules. import utils
+from modules import utils
 
 config = utils.config
 
