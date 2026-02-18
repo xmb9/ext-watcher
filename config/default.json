@@ -1,6 +1,7 @@
 {
   "watched_extensions": {},
   "discord_webhooks": [],
+  "chrome_version": "146.0.7670.2",
   "collapse_diffs": false,
   "debug": false
 }

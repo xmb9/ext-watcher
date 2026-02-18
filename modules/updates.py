@@ -5,8 +5,9 @@ import urllib
 import re
 from packaging import version
 from lxml import etree
+from modules.utils import config
 
-chrome_version = "114.0.5735.198"
+chrome_version = config.get("chrome_version", "146.0.7670.2")
 update_url_base = "https://clients2.google.com/service/update2/crx"
 update_params = "?response=redirect&os=cros&arch=x86-64&os_arch=x86-64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=unknown&prodversion={chrome_version}&acceptformat=crx2,crx3&x=id%3D{extension_id}%26uc"
 
